@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Keystroke Logger Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#00ff99" />
+  </head>
+  <body>
+    <div id="splash">
+      <h1>[ SYSTEM ACCESS GRANTED ]</h1>
+      <p>Initializing Cybersecurity Logger...</p>
+    </div>
+
+    <div id="mainContent" style="display: none">
+      <pre id="bootSequence">
+[ Initializing logger engine... ]
+[ Connecting to virtual keyboard interface... ]
+[ Logger activated. Awaiting input ↓ ]
+    </pre
+      >
+
+      <h1>Keystroke Logger (Cybersecurity Edition)</h1>
+      <div id="log"></div>
+      <button id="downloadBtn">Download Log</button>
+
+      <div id="statsPanel">
+        <h2>Typing Stats</h2>
+        <p>Keys pressed: <span id="keyCount">0</span></p>
+        <p>Words typed: <span id="wordCount">0</span></p>
+        <p>Speed (WPM): <span id="wpm">0</span></p>
+      </div>
+
+      <button id="togglePrivacy">Toggle Privacy Mode</button>
+
+      <section id="threatPanel">
+        <h2>Threat Analysis Panel</h2>
+        <div id="threatLog">
+          <p>[ Threat Monitor Initialized ]</p>
+        </div>
+        <button id="simulateThreat">Simulate Threat</button>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

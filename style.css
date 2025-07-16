@@ -1,0 +1,164 @@
+body {
+  font-family: "Courier New", monospace;
+  background-color: #0f111a;
+  color: #00ff99;
+  margin: 40px;
+}
+
+h1 {
+  color: #00ffff;
+  text-shadow: 0 0 5px #00ffff;
+  margin-top: 20px;
+}
+
+p {
+  color: #66ffcc;
+}
+
+#bootSequence {
+  color: #00ffcc;
+  font-size: 16px;
+  white-space: pre-wrap;
+  margin-bottom: 20px;
+  animation: blinkText 1s steps(1, start) infinite;
+}
+
+@keyframes blinkText {
+  50% {
+    opacity: 0;
+  }
+}
+
+#splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0f111a;
+  color: #00ff99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", monospace;
+  z-index: 9999;
+  text-align: center;
+  animation: splashFadeOut 3s ease-in forwards;
+  animation-delay: 2s;
+}
+
+@keyframes splashFadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#log {
+  background-color: #111;
+  border: 1px solid #00ff99;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  color: #00ff99;
+  font-size: 14px;
+  box-shadow: inset 0 0 10px #00ff99;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #1f1f1f;
+  border: 1px solid #00ffff;
+  color: #00ffff;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 0 8px #00ffff;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #00ffff;
+  color: #0f111a;
+}
+
+#statsPanel {
+  background-color: #111;
+  border: 1px solid #00ff99;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: inset 0 0 10px #00ff99;
+  color: #00ff99;
+}
+
+#statsPanel h2 {
+  color: #00ffff;
+  margin-bottom: 10px;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+#togglePrivacy {
+  background-color: #1f1f1f;
+  border: 1px solid #999;
+  color: #999;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px #999;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#togglePrivacy:hover {
+  background-color: #999;
+  color: #0f111a;
+}
+
+.private #log {
+  filter: blur(6px);
+  transition: filter 0.3s ease-in-out;
+}
+
+#threatPanel {
+  background-color: #111;
+  border: 1px solid #ff0055;
+  padding: 15px;
+  color: #ff0055;
+  box-shadow: inset 0 0 10px #ff0055;
+  margin-bottom: 20px;
+}
+
+#threatPanel h2 {
+  color: #ff3366;
+  text-shadow: 0 0 5px #ff3366;
+  margin-bottom: 10px;
+}
+
+#threatLog {
+  font-size: 14px;
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+  color: #ff99aa;
+}
+
+#simulateThreat {
+  background-color: #1f1f1f;
+  border: 1px solid #ff3366;
+  color: #ff3366;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 8px #ff3366;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#simulateThreat:hover {
+  background-color: #ff3366;
+  color: #0f111a;
+}
