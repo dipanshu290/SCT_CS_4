@@ -2,8 +2,11 @@ window.addEventListener("load", function () {
   setTimeout(() => {
     document.getElementById("splash").style.display = "none";
     document.getElementById("mainContent").style.display = "block";
-    document.getElementById("hiddenInput").focus();
   }, 3000);
+});
+
+document.getElementById("tapToType").addEventListener("click", () => {
+  document.getElementById("hiddenInput").focus();
 });
 
 const logDiv = document.getElementById("log");
