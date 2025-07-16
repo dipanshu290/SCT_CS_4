@@ -2,6 +2,7 @@ window.addEventListener("load", function () {
   setTimeout(() => {
     document.getElementById("splash").style.display = "none";
     document.getElementById("mainContent").style.display = "block";
+    document.getElementById("hiddenInput").focus();
   }, 3000);
 });
 
@@ -73,6 +74,7 @@ function estimateWPM() {
 privacyBtn.addEventListener("click", () => {
   document.body.classList.toggle("private");
 });
+
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js");
 }
