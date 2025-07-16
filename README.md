@@ -1,9 +1,9 @@
-🚀 Overview
+##🚀 Overview
 Cyber Keystroke Logger is an educational, cybersecurity-themed web application designed to simulate keystroke logging in a safe and ethical environment. Styled like a hacker dashboard, it tracks typing activity, simulates threat detection, and trains users to recognize suspicious patterns — all inside a futuristic terminal UI.
 
 Ideal for digital forensics labs, infosec training modules, or interactive simulations.
 
-🧠 Features
+##🧠 Features
 🔑 Real-time keystroke tracker
 
 📄 Downloadable key log file
