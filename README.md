@@ -1,21 +1,30 @@
-##🚀 Overview
-Cyber Keystroke Logger is an educational, cybersecurity-themed web application designed to simulate keystroke logging in a safe and ethical environment. Styled like a hacker dashboard, it tracks typing activity, simulates threat detection, and trains users to recognize suspicious patterns — all inside a futuristic terminal UI.
+🔐 CyberForensic: Keystroke Logger & Threat Panel
+Welcome to CyberForensic, a neon-glowing, cybersecurity-themed keystroke logger and threat analysis simulation. Designed to mimic a forensic analyst’s toolkit, it visualizes typing behavior, tracks patterns, simulates threats, and displays key performance stats — all inside a glowing terminal-inspired dashboard. It's educational, immersive, and installable as a Progressive Web App (PWA).
 
-Ideal for digital forensics labs, infosec training modules, or interactive simulations.
+🚀 Features
+✅ Real-time keystroke logging
 
-##🧠 Features
-🔑 Real-time keystroke tracker
+✅ Downloadable activity log as .txt
 
-📄 Downloadable key log file
+✅ Typing stats: keys pressed, words typed, and estimated WPM
 
-📊 Typing stats: key count, word count, speed (WPM)
+✅ Privacy Mode toggle — blur sensitive logs on command
 
-🛡️ Threat Analysis Panel with simulated alerts
+✅ Threat Analysis Panel with simulated alerts
 
-🚨 Pattern detection (repetitive keys, weak passwords)
+✅ Pattern recognition of repeated keys or weak password strings
 
-🔒 Privacy Mode to blur sensitive keystrokes
+✅ Animated splash screen and blinking boot sequence
 
-⚡ Cyberpunk boot sequence and splash screen
+✅ Cyberpunk UI with glowing borders and neon color accents
 
-📱 PWA support: installable and offline-capable
+✅ Progressive Web App (PWA) support — installable & offline-capable
+
+🧪 Technologies Used
+HTML, CSS (terminal-style visuals, animated boot text, neon aesthetic)
+
+Vanilla JavaScript (live tracking, logic, pattern matching)
+
+PWA setup using manifest.json and service-worker.js
+
+Custom icon set for PWA launch support (192x192 and 512x512 PNG)
