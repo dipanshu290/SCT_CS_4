@@ -5,10 +5,6 @@ window.addEventListener("load", function () {
   }, 3000);
 });
 
-document.getElementById("tapToType").addEventListener("click", () => {
-  document.getElementById("hiddenInput").focus();
-});
-
 const logDiv = document.getElementById("log");
 const downloadBtn = document.getElementById("downloadBtn");
 const keyCount = document.getElementById("keyCount");
@@ -77,7 +73,3 @@ function estimateWPM() {
 privacyBtn.addEventListener("click", () => {
   document.body.classList.toggle("private");
 });
-
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js");
-}

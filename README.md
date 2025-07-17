@@ -1,39 +1,28 @@
 🔐 CyberForensic: Keystroke Logger & Threat Panel
-Welcome to CyberForensic, a neon-glowing, cybersecurity-themed keystroke logger and threat simulation interface. Designed to mimic a forensic analyst’s toolkit, it visualizes typing behavior, tracks patterns, simulates threats, and displays performance metrics — inside a futuristic terminal-inspired dashboard. This educational tool now includes mobile support with tap-to-type interaction and offline installability via Progressive Web App (PWA).
+Welcome to CyberForensic, a glowing, cybersecurity-themed keystroke logger and threat simulation interface. Styled like a futuristic terminal, it mimics a forensic analyst’s toolkit and visualizes typing behavior, detects suspicious patterns, and simulates threat events — all in real time.
+
+This educational web app is designed for desktop environments and showcases responsive keystroke tracking, immersive UI, and color-coded threat feedback.
 
 🚀 Features
 ✅ Real-time keystroke logging
 
-✅ Tap-to-type prompt for mobile keyboard activation
-
 ✅ Downloadable activity log as .txt
 
-✅ Typing stats: key count, word count, and estimated WPM
+✅ Typing stats: total keys, word count, estimated WPM
 
-✅ Privacy Mode toggle — blur sensitive logs on command
+✅ Privacy Mode toggle — blurs sensitive content in the log
 
-✅ Threat Analysis Panel with randomized threat simulation
+✅ Threat Analysis Panel with randomized alerts
 
-✅ Pattern recognition for repeated keys and weak passwords
+✅ Pattern recognition for repeated keystrokes or weak password strings
 
-✅ Animated splash screen with blinking boot sequence
+✅ Animated splash screen and blinking boot sequence
 
-✅ Cyberpunk UI using glowing text, shadows, and color-coded alerts
-
-✅ Progressive Web App (PWA) support — installable and offline-capable
+✅ Neon-themed terminal UI with glowing text, shadows, and color-coded panels
 
 🧪 Technologies Used
-HTML (structural interface, tap-to-type input)
+HTML — Structural layout of splash, log, stats, and threat modules
 
-CSS (neon cyber theme, splash animations, terminal-styled panels)
+CSS — Terminal-styled interface with cyberpunk glow effects and animations
 
-Vanilla JavaScript (keystroke tracking, threat generation, input focus logic, stats and WPM calculation)
-
-PWA Setup via manifest.json, service-worker.js, and custom app icons (192x192 and 512x512 PNG)
-
-📱 Mobile Behavior
-A hidden <input> field is automatically focused on tap to trigger the on-screen keyboard
-
-Users are prompted with [ Tap screen to begin typing ] for intuitive UX
-
-All logs and threat events are recorded in real time even on mobile
+JavaScript — Keystroke tracking, threat pattern detection, performance stats, and privacy toggles
