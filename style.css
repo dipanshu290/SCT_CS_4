@@ -15,6 +15,22 @@ p {
   color: #66ffcc;
 }
 
+#tapToType {
+  color: #00ffff;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+  text-shadow: 0 0 5px #00ffff;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  #tapToType {
+    font-size: 20px;
+    margin: 30px 0;
+  }
+}
+
 #bootSequence {
   color: #00ffcc;
   font-size: 16px;
