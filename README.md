@@ -1,28 +1,28 @@
 🔐 CyberForensic: Keystroke Logger & Threat Panel
-Welcome to CyberForensic, a glowing, cybersecurity-themed keystroke logger and threat simulation interface. Styled like a futuristic terminal, it mimics a forensic analyst’s toolkit and visualizes typing behavior, detects suspicious patterns, and simulates threat events — all in real time.
+CyberForensic is a glowing, desktop-based cybersecurity-themed keystroke logger and threat simulation interface. Styled like a retrofuturistic terminal, it mimics a forensic analyst’s toolkit and visualizes real-time typing behavior, flags risky input patterns, and generates simulated threat alerts — all inside a neon-lit dashboard.
 
-This educational web app is designed for desktop environments and showcases responsive keystroke tracking, immersive UI, and color-coded threat feedback.
+Perfect for educational demos, UI prototypes, or experimenting with interactive typing data, this project runs entirely in-browser with no installation required.
 
 🚀 Features
 ✅ Real-time keystroke logging
 
-✅ Downloadable activity log as .txt
+✅ Downloadable typing log as .txt file
 
-✅ Typing stats: total keys, word count, estimated WPM
+✅ Typing stats panel showing total keys pressed
 
-✅ Privacy Mode toggle — blurs sensitive content in the log
+✅ Toggleable Privacy Mode to blur sensitive content
 
-✅ Threat Analysis Panel with randomized alerts
+✅ Threat Analysis Panel with randomized alerts and manual simulation
 
-✅ Pattern recognition for repeated keystrokes or weak password strings
+✅ Smart detection of repeated key patterns and weak/common password strings
 
-✅ Animated splash screen and blinking boot sequence
+✅ Animated terminal-style boot sequence and splash screen
 
-✅ Neon-themed terminal UI with glowing text, shadows, and color-coded panels
+✅ Cyberpunk UI with glowing text, shadows, and rich visual feedback
 
 🧪 Technologies Used
-HTML — Structural layout of splash, log, stats, and threat modules
+HTML — Semantic structure for splash screen, keystroke log, stats panel, and threat modules
 
-CSS — Terminal-styled interface with cyberpunk glow effects and animations
+CSS — Neon cyberpunk interface with blinking boot sequences, glowing text, shadows, and responsive layout
 
-JavaScript — Keystroke tracking, threat pattern detection, performance stats, and privacy toggles
+JavaScript — Real-time keystroke tracking, threat simulation logic, privacy mode toggle, and .txt log generation

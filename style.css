@@ -41,7 +41,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Courier New", monospace;
   z-index: 9999;
   text-align: center;
   animation: splashFadeOut 3s ease-in forwards;
